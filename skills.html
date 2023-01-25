@@ -1,0 +1,174 @@
+<!-- Portfolio website created by Paschal C. Ezinwa a seasoned Full stack developer and Dev Ops Engineer -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paschal E. C.</title>
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="skills.css">
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ===== FAV ICONS ===== -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Navigation -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="#" class="logo">Paschal C. Ezinwa.</a>
+            <!-- Navbar -->
+            <ul class="navbar">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="certifications.html" class="nav-link">Certifications</a></li>
+                <li><a href="projects.html" class="nav-link">Recent Projects</a></li>
+            </ul>
+            <!-- Menu Icon -->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+
+    
+    <!-- Services-->
+    <section class="services container" id="services">
+        <!-- Heading -->
+        <h2 class="heading"><br/>Skills</h2>
+        <!-- Services Content -->
+        <div class="services-content">
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h2>Programming Languages</h2>
+                <p class="explanation">
+                    <ul>
+                        <li>Java / Springboot</li>
+                        <li>SQL</li>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-edit'></i>
+                <h2>Operating Systems</h2>
+                <p class="explanation"><ul>
+                    <li>Redhat Enterprise Linux (RHEL)</li>
+                    <li>Ubuntu</li>
+                    <li>CentOS</li>
+                    <li>Windows</li>
+                </ul>
+            </p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-pencil'></i>
+                <h2>Databases</h2>
+                <p class="explanation"><ul>
+                    <li>Oracle 12, 19C etc</li>
+                    <li>MySQL Database</li>
+                    <li>MS SQL Server</li>
+                    <li>Redis</li>
+                    <li>PostgreSQL</li>
+                </ul>
+            </p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-edit'></i>
+                <h2>Monitoring & Log Mgmt.</h2>
+                <p class="explanation"><ul>
+                    <li>Grafana</li>
+                    <li>Loki</li>
+                    <li>Pomtail</li>
+                    <li>Prometheus</li>
+                    <li>Jasper Report Server</li>
+                </ul>
+            </p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-pencil'></i>
+                <h2>Source & Version Control</h2>
+                <p class="explanation"><ul>
+                    <li>Github</li>
+                    <li>Gitlab</li>
+                </ul>
+            </p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h2>Containerization</h2>
+                <p class="explanation">
+                    <ul>
+                        <li>Docker</li>
+                        <li>Kubernetes</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-pencil'></i>
+                <h2>Server Management</h2>
+                <p class="explanation"><ul>
+                    <li>Nginx Server</li>
+                    <li>Apache Tomcat</li>
+                </ul>
+            </p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-pencil'></i>
+                <h2>Others</h2>
+                <p class="explanation"><ul>
+                    <li>Apache Camel for integration</li>
+                    <li>Active MQ for messaging</li>
+                    <li>Postman for API testing</li>
+                </ul>
+            </p>
+            </div>
+        </div>
+    </section>
+
+     <!-- Footer -->
+     <section class="footer container" id="footer">
+        <div class="social">
+            <a href="https://www.instagram.com/paschal_e.c._devops/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.twitter.com/Paschal_DevOps"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.linkedin.com/in/chukwukapaschal"><i class='bx bxl-linkedin'></i></a>
+        </div>
+        <!-- Footer Links -->
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms Of Use</a>
+            <a href="#">Disclaimer</a>
+        </div>
+        <!-- Copyright -->
+        <p>&#169; 2022 Paschal C. Ezinwa | Paschal Dev Ops</p>
+    </section>
+
+<script>
+    <!--  Header background change On Scroll -->
+    let header = document.querySelector("header");
+    
+    window.addEventListener("scroll", () => {
+        header.classList.toggle("header-active", window.scrollY > 0);
+    });
+    
+    <!-- Scroll Top -->
+    let scrollTop = document.querySelector(".scroll-top");
+    
+    window.addEventListener("scroll", () => {
+        scrollTop.classList.toggle("scroll-active", window.scrollY >= 400);
+    });
+</script>
+        <!-- ===== MIXITUP FILTER ===== -->
+        <script src="js/mixitup.min.js"></script>
+
+
+   
+
+</body>
+</html>
